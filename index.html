@@ -26,6 +26,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho">
   <link rel="stylesheet" href="css/style_hp3s.css">
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
     <div class="container">
@@ -68,8 +71,8 @@
         <!-- <li class="media"> -->
         <li class="media">
           <div class="media-body">
-            <span class="badge badge-danger">感謝</span> <small class="text-muted">2023/12/21</small>
-            <p class="mt-0 mb-1" style="font-size: 3vmin;">ご支援者様『1,300組』突破しました。</a></p>
+            <span class="badge badge-danger">感謝</span> <small class="text-muted">2025/6/21</small>
+            <p class="mt-0 mb-1" style="font-size: 3vmin;">ご支援者様『1,600組』突破しました。</a></p>
             たくさんの皆様に支えられながら活動を続けることができます。心より感謝申し上げます。
           </div>
         </li>
@@ -287,7 +290,8 @@
                       <br><br>
                       <!-- </b> -->
                     </p>
-                    <p class="card-text mx-3 pb-3"><small class="text-muted">東京都馬主会/中山馬主協会所属/システム・シャイン・サービス株式会社</small>
+                    <p class="card-text mx-3 pb-3"><small
+                        class="text-muted">東京都馬主会/東京馬主協会所属/<br>システム・シャイン・サービス株式会社</small>
                     </p>
                   </div>
                 </div>
@@ -436,8 +440,8 @@
       <div class="product02"><img src="images/horse06.jpeg"></div>
       <div class="product02"><img src="images/horse07.jpeg"></div>
       <div class="product02"><img src="images/horse08.jpeg"></div>
-      <div class="product02"><img src="images/horse02.png"></div>
-      <div class="product02"><img src="images/horse03.png"></div>
+      <!-- <div class="product02"><img src="images/horse02.png"></div>
+      <div class="product02"><img src="images/horse03.png"></div> -->
     </div>
 
   </div>
@@ -470,35 +474,44 @@
 
       </div>
 
-      <div class="charity_area02">
-        <div class="charity_box">
+      <!-- <div class="charity_area02"> -->
+      <!-- <div class="charity_box">
           <h5 class="card-title"><span class="badge badge-success text-wrap"
               style="width:7rem;">3,900円以上</span>　みなさま全員に!</h5>
           <img src="http://www.3s-group.co.jp/images/henreihin_1.jpg" class="card-img-top" alt="...">
           <p class="card-text">感謝状（額縁付き）、ホースプロジェクト３S 消臭剤250ML（非売品）１本をご支援者様全員にお送りさせて頂きます。</p>
 
-        </div>
+        </div> -->
 
 
-        <div class="charity_box">
+      <!-- <div class="charity_box">
           <h5 class="card-title"><span class="badge badge-success text-wrap"
               style="width:4rem;">世界初！</span>　お馬さんに好きなものを贈ろう！</h5>
           <img src="http://www.3s-group.co.jp/images/henreihin_2.jpg" class="card-img-top" alt="...">
           <p class="card-text">にんじんや黒糖など好きな物を選んでお馬さんに贈ります。マークシートの使用は任意です。</p>
 
+        </div> -->
+
+      <!-- </div> -->
+
+
+      <div class="charity_box">
+        <div class="charity_photo02">
+          <img src="http://www.3s-group.co.jp/images/henreihin_2.jpg" class="card-img-top" alt="...">
         </div>
-
+        <div class="charity_txt02">
+          <h5 class="card-title02">
+            <span class="badge badge-success text-wrap" style="width:5rem;">世界初！</span>　
+            お馬さんに好きなものを贈ろう！
+          </h5>
+          <p class="card-text">
+            にんじんや黒糖など好きな物を選んでお馬さんに贈ります。<br>マークシートの使用は任意です。
+          </p>
+        </div>
       </div>
-
-
-
-
 
     </div>
   </section>
-
-
-
 
 
   <!--　▼ 支援金申し込み方法 -->
@@ -513,7 +526,7 @@
         <li class="list-group-item h4 text-left">
           【手順1】　用紙に記入・FAX
           <p class="py-2 text-muted h6">
-            用紙に必須事項「氏名・郵便番号・住所・お電話番号・口数・返礼品の要不要」を記入の上、当プロジェクトまでFAXまたは郵送でお送りください。<br>
+            用紙に必須事項「氏名・郵便番号・住所・お電話番号・口数・感謝状の要不要」を記入の上、当プロジェクトまでFAXまたは郵送でお送りください。<br>
             <br>
             またはメールでのお申し込みも可能。
             <!-- メーラー -->
@@ -529,7 +542,7 @@
         ご住所：　%0d%0a
         お電話番号：　%0d%0a
         寄付金口数：　%0d%0a
-        返礼品の要不要：　要・不要%0d%0a
+        感謝状の要不要：　要・不要%0d%0a
         ─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─%0d%0a
         %0d%0a
         ②　メール送信後、下記口座へお振込下さい。%0d%0a
@@ -548,7 +561,7 @@
             </a>
             <!-- //メーラー -->
             <br>
-            <small>※Chromeブラウザでは開かない場合が御座います。メーラーが起動しない場合は、下記メールアドレス宛に［氏名］［企業名］［郵便番号］［ご住所］［お電話番号］［寄付金口数］［返礼品の要不要］をご入力の上、メールください。</small>
+            <small>※Chromeブラウザでは開かない場合が御座います。<br>メーラーが起動しない場合は、下記メールアドレス宛に［氏名］［企業名］［郵便番号］［ご住所］［お電話番号］［寄付金口数］［感謝状の要不要］をご入力の上、メールください。</small>
           <p class="fs-4">horseproject@3s-group.co.jp</p>
           </p>
 
@@ -557,7 +570,7 @@
             <li>FAX・メール・郵送でのお申し込み後、弊社からのご案内等のご返信は致しておりません。</li>
             <li>お申し込み後はこのまま下記の口座へお振込下さい。</li>
             <li>お振込いただく際にお申し込み者様とお振込口座名義が異なると、ご入金の発見ができませんので名義が異なる場合はFAX・メールにその旨ご記載下さい。</li>
-            <li>返礼品ご不要の場合でもお申し込みは必ず行って下さい。(※不明金が発生してしまう為)</li>
+            <li>感謝状ご不要の場合でもお申し込みは必ず行って下さい。(※不明金が発生してしまう為)</li>
             <li>郵送の際の切手代はご支援者様負担でお願いしております。</li>
           </ul>
 
@@ -571,10 +584,10 @@
         <li class="list-group-item text-left h4">
           【手順3】 完了！
           <p class="py-2 text-muted text-left h6">
-            返礼品の到着をお待ちください。<br>
+            感謝状の到着をお待ちください。<br>
             <mute>（※ご入金から３週間以内に発送させて頂きます。）<br>
-              ３週間以上返礼品が届かない場合は弊社まで一度ご連絡下さい。お申し込みの際「返礼品：要］にてお申し込み頂いた際も<br>
-              途中、返礼品が不要になった場合もご連絡下さい。</mute>
+              ３週間以上感謝状が届かない場合は弊社まで一度ご連絡下さい。お申し込みの際「感謝状：要］にてお申し込み頂いた際も<br>
+              途中、感謝状が不要になった場合もご連絡下さい。</mute>
           </p>
         </li>
       </ul>
@@ -678,12 +691,91 @@
   </section> -->
   <!-- ▲ 商品を買って応援　 -->
 
+
+
+<!-- ▼ ギャラリーセクション -->
+<section class="text-center py-5 back-g5 text-white" >
+  <div class="container">
+    <!-- タイトル -->
+    <div class="title_areaw mb-4">
+      <h3>活動写真集<span>Gallery</span></h3>
+    </div>
+
+    <div class="row">
+      <!-- 繰り返し：9枚分 -->
+      <!-- 画像1 -->
+      <div class="col-md-4 mb-4">
+        <a href="images/horse05.jpeg" data-lightbox="gallery" data-title="活動写真1">
+          <img src="images/horse05.jpeg" class="img-fluid border" alt="活動写真1">
+        </a>
+      </div>
+
+      <!-- 画像2 -->
+      <div class="col-md-4 mb-4">
+        <a href="images/horse05.jpeg" data-lightbox="gallery" data-title="活動写真2">
+          <img src="images/horse05.jpeg" class="img-fluid border" alt="活動写真2">
+        </a>
+      </div>
+
+      <!-- 画像3 -->
+      <div class="col-md-4 mb-4">
+        <a href="images/horse05.jpeg" data-lightbox="gallery" data-title="活動写真3">
+          <img src="images/horse05.jpeg" class="img-fluid border" alt="活動写真3">
+        </a>
+      </div>
+
+      <!-- 画像4〜9（同様に繰り返し） -->
+      <div class="col-md-4 mb-4">
+        <a href="images/horse05.jpeg" data-lightbox="gallery" data-title="活動写真4">
+          <img src="images/horse05.jpeg" class="img-fluid border" alt="活動写真4">
+        </a>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <a href="images/horse05.jpeg" data-lightbox="gallery" data-title="活動写真5">
+          <img src="images/horse05.jpeg" class="img-fluid border" alt="活動写真5">
+        </a>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <a href="images/horse05.jpeg" data-lightbox="gallery" data-title="活動写真6">
+          <img src="images/horse05.jpeg" class="img-fluid border" alt="活動写真6">
+        </a>
+      </div>
+<!-- 
+      <div class="col-md-4 mb-4">
+        <a href="images/photo7_large.jpg" data-lightbox="gallery" data-title="活動写真7">
+          <img src="images/photo7_thumb.jpg" class="img-fluid border" alt="活動写真7">
+        </a>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <a href="images/photo8_large.jpg" data-lightbox="gallery" data-title="活動写真8">
+          <img src="images/photo8_thumb.jpg" class="img-fluid border" alt="活動写真8">
+        </a>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <a href="images/photo9_large.jpg" data-lightbox="gallery" data-title="活動写真9">
+          <img src="images/photo9_thumb.jpg" class="img-fluid border" alt="活動写真9">
+        </a>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <!-- ▲ギャラリーセクション -->
+
   <!-- Movieセクション -->
   <section class="text-center py-5 back-g5 text-white">
     <div class="container">
       <!-- タイトル -->
       <div class="title_areaw">
-        <h3>Movie<span>ホースプロジェクト3Sの活動</span></h3>
+        <h3>活動動画<span>Movie</span></h3>
       </div>
 
       <!-- 動画3列 -->
@@ -741,17 +833,23 @@
       <div class="row no-gutters">
         <!-- 商品1 -->
         <div class="col-md-4 px-1 mb-3">
-          <div class="card h-100 ">
-            <img src="http://www.3s-group.co.jp/images/CK200.jpg" class="card-img-top product-img" alt="商品1画像">
-            <div class="card-body text-dark">
-              <p class="card-text mb-1">野菜クッキー200g 単品</p>
-              <p class="mb-0">￥1,700-（税込）</p>
-              <a target="_blank"
-                href="https://item.rakuten.co.jp/3s-group/3shoseproject/?variantId=hoseproject-cookie_200"
-                class="btn btn-danger mx-1">楽天市場</a>
-              <a target="_blank"
-                href="https://store.shopping.yahoo.co.jp/kaiun3s-group/cookie.html?sc_i=shopping-pc-web-detail-item-str_vri-itm"
-                class="btn btn-primary mx-1">Yahoo!ショッピング</a>
+          <div class="card h-100">
+            <img src="http://www.3s-group.co.jp/images/bokusou01.webp" class="card-img-top product-img" alt="商品1画像">
+            <div class="card-body text-dark text-center">
+              <p class="card-text mb-1">生牧草1kg～</p>
+              <p class="mb-0">￥1,980-（税込）～</p>
+              <p>（生牧草 3kg、6kg、12kg）</p>
+              <div class="d-flex flex-wrap justify-content-center">
+                <a target="_blank"
+                  href="https://item.rakuten.co.jp/3s-group/3shoseproject/?variantId=hoseproject-grass_1"
+                  class="btn btn-danger m-1">楽天市場</a>
+                <a target="_blank"
+                  href="https://store.shopping.yahoo.co.jp/kaiun3s-group/grass-1kg.html?sc_i=shopping-pc-web-detail-item-str_vri-itm"
+                  class="btn btn-primary m-1">Yahoo!ショッピング</a>
+                <a target="_blank"
+                  href="https://jp.mercari.com/shops/product/XpDdnCSaXjgJtjzPbfByhL?source=shared_link&utm_source=shared_link"
+                  class="btn btn-dark m-1">メルカリ</a>
+              </div>
             </div>
           </div>
         </div>
@@ -759,16 +857,20 @@
         <!-- 商品2 -->
         <div class="col-md-4 px-1 mb-3">
           <div class="card h-100">
-            <img src="http://www.3s-group.co.jp/images/CK200BK.jpg" class="card-img-top product-img" alt="商品2画像">
-            <div class="card-body text-dark">
-              <p class="card-text mb-1">生牧草3kg＋野菜クッキー200g セット</p>
-              <p class="mb-0">￥5,500-（税込）</p>
+            <img src="http://www.3s-group.co.jp/images/CK200.jpg" class="card-img-top product-img" alt="商品2画像">
+            <div class="card-body text-dark  text-center">
+              <p class="card-text mb-1">野菜クッキー200g</p>
+              <p class="mb-0">￥1,700-（税込）</p>
+              <p>　</p>
               <a target="_blank"
-                href="https://item.rakuten.co.jp/3s-group/3shoseproject/?variantId=hoseproject-grass-cookie_200"
+                href="https://item.rakuten.co.jp/3s-group/3shoseproject/?variantId=hoseproject-cookie_200"
                 class="btn btn-danger mx-1">楽天市場</a>
               <a target="_blank"
-                href="https://store.shopping.yahoo.co.jp/kaiun3s-group/cookie-grass.html?sc_i=shopping-pc-web-detail-item-str_vri-itm"
+                href="https://store.shopping.yahoo.co.jp/kaiun3s-group/cookie.html?sc_i=shopping-pc-web-detail-item-str_vri-itm"
                 class="btn btn-primary mx-1">Yahoo!ショッピング</a>
+              <a target="_blank"
+                href="https://jp.mercari.com/shops/product/Yuv44rMziBG5v2Z4uqeStW?source=shop_page_list&_gl=1*odls6c*_gcl_au*MTg4MTU5OTcyMy4xNzUwNzc0NDg0*_ga*OTA1MTAxNDIuMTc1MDc3NDQ4NA..*_ga_4NLR7T2LEN*czE3NTA3NzQ0ODQkbzEkZzAkdDE3NTA3NzQ0ODQkajYwJGwwJGgw"
+                class="btn btn-dark m-1">メルカリ</a>
             </div>
           </div>
         </div>
@@ -776,16 +878,20 @@
         <!-- 商品3 -->
         <div class="col-md-4 mb-3">
           <div class="card h-100">
-            <img src="http://www.3s-group.co.jp/images/CK400BK.jpg" class="card-img-top product-img" alt="商品3画像">
-            <div class="card-body text-dark">
-              <p class="card-text mb-1">生牧草3kg＋野菜クッキー200g×2袋 セット</p>
-              <p class="mb-0">￥6,800-（税込）</p>
+            <img src="http://www.3s-group.co.jp/images/CK400.jpg" class="card-img-top product-img" alt="商品3画像">
+            <div class="card-body text-dark  text-center">
+              <p class="card-text mb-1">野菜クッキー200g×2セット</p>
+              <p class="mb-0">￥3,000-（税込）</p>
+              <p>　</p>
               <a target="_blank"
-                href="https://item.rakuten.co.jp/3s-group/3shoseproject/?variantId=hoseproject-grass-cookie_400"
+                href="https://item.rakuten.co.jp/3s-group/3shoseproject/?variantId=hoseproject-cookie_400"
                 class="btn btn-danger mx-1">楽天市場</a>
               <a target="_blank"
-                href="https://store.shopping.yahoo.co.jp/kaiun3s-group/cookie2-grass.html?sc_i=shopping-pc-web-detail-item-str_vri-itm"
+                href="https://store.shopping.yahoo.co.jp/kaiun3s-group/cookie2.html?sc_i=shopping-pc-web-detail-item-str_vri-itm"
                 class="btn btn-primary mx-1">Yahoo!ショッピング</a>
+              <a target="_blank"
+                href="https://jp.mercari.com/shops/product/LBthEqgMTFEAPaWHSqDKFQ?source=shop_page_list&_gl=1*yvmaox*_gcl_au*MTg4MTU5OTcyMy4xNzUwNzc0NDg0*_ga*OTA1MTAxNDIuMTc1MDc3NDQ4NA..*_ga_4NLR7T2LEN*czE3NTA3NzQ0ODQkbzEkZzEkdDE3NTA3NzQ1NDAkajQkbDAkaDA."
+                class="btn btn-dark m-1">メルカリ</a>
             </div>
           </div>
         </div>
@@ -859,9 +965,9 @@
         </div>
         <div class="cp_actab">
           <input id="cp_tabfour032" type="checkbox" name="tabs">
-          <label for="cp_tabfour032">返礼品は不要ですがどうすればいいですか？</label>
+          <label for="cp_tabfour032">感謝状は不要ですがどうすればいいですか？</label>
           <div class="cp_actab-content">
-            <p>返礼品が不要の場合は、お申し込み用紙またはお申し込みメールフォームへ返礼品不要の旨をご記載下さい。</p>
+            <p>感謝状が不要の場合は、お申し込み用紙またはお申し込みメールフォームへ返礼品不要の旨をご記載下さい。</p>
           </div>
         </div>
         <div class="cp_actab">
@@ -1136,12 +1242,12 @@
       </div>
       <div class="ml-auto p-3 bd-highlight">
         <b>引退馬支援活動　ホースプロジェクト3S</b>
-        <p>Copyright©2023 System shine service CO.,LTD. All rights reserved.</p>
+        <p>Copyright©2025 System shine service CO.,LTD. All rights reserved.</p>
       </div>
     </div>
   </footer>
   <!--　//フッター　 -->
-
+<!-- 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -1154,7 +1260,29 @@
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script> -->
+
+
+
+<!-- 正しいjQuery（1つだけ） -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- PopperとBootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- Slick（必要であれば） -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+<!-- Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+
+
+
+
+
+
   <script type="text/javascript">
     // slider ******************************
     $(document).ready(function () {
