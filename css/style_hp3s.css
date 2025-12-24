@@ -1,5 +1,4 @@
 body {
-  /* color: #13430a; */
   color: #0b2e13;
   font-size: 0.9em;
   overflow-x: hidden;
@@ -7,7 +6,6 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-
   background-color: #DFF5E1;
 }
 
@@ -41,7 +39,6 @@ img {
   max-width: 600px;
   color: white;
   font-size: 2vmin;
-  /* background-color: rgba(0, 0, 0, 0.5); */
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -78,8 +75,6 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
   padding: 0 0;
   text-align: center;
   width: 100%;
-
-
 }
 
 /**LPコンテンツ 背景緑**/
@@ -89,8 +84,6 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
   text-align: center;
   width: 100%;
   background: #13430a;
-
-
 }
 
 /**LPコンテンツ 背景馬**/
@@ -101,8 +94,6 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
   width: 100%;
   background: url("../images/back_a.png") center no-repeat;
   background-size: cover;
-
-
 }
 
 /**LPコンテンツ 背景馬**/
@@ -113,8 +104,6 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
   width: 100%;
   background: url("../images/back_b.png") center no-repeat;
   background-size: cover;
-
-
 }
 
 /**LPコンテンツ 背景芝生と空**/
@@ -124,8 +113,6 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
   width: 100%;
   background: url("../images/green_back.png") center no-repeat;
   background-size: cover;
-
-
 }
 
 
@@ -136,8 +123,6 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
   width: 100%;
   padding: 0 0 5% 0;
   text-align: center;
-
-
 }
 
 /**LPコンテンツ **/
@@ -148,8 +133,6 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
   width: 100%;
   padding: 5% 0;
   text-align: center;
-
-
 }
 
 /**LPコンテンツ 薄緑**/
@@ -158,8 +141,6 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
   padding: 0 0;
   width: 100%;
   background: #e5efe5;
-
-
 }
 
 /**タイトルエリア 緑**/
@@ -167,8 +148,6 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
   margin: 0 auto 2% auto;
   padding: 0;
   text-align: center;
-
-
 }
 
 
@@ -205,7 +184,6 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
   margin: 0 auto 2% auto;
   padding: 0;
   text-align: center;
-
 }
 
 
@@ -265,43 +243,10 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
 }
 
 .charity_txt {
-
   padding: 0 2%;
   margin: 0 auto;
   width: 66%;
 }
-
-
-/**ご支援のお願い 2列**/
-
-/* .charity_area02{
-display: flex; 
-margin:5% auto 0 auto;	
-padding:0;
-width: 100%;
-max-width: 980px;
-text-align: center;
- justify-content: center;
-	} */
-
-/* .charity_box {
-  width: calc(100%/2 - 5px);
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 2%;
-  margin: 0 auto;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-  text-align: left;
-} */
-
-/* .charity_box img {
-  padding: 0 0 5% 0;
-  margin: 0 auto;
-} */
-
 
 /**ご支援のお願い 2列目**/
 .charity_box {
@@ -340,8 +285,6 @@ text-align: center;
 }
 
 
-
-
 /**キャンペーン概要タイトル背景**/
 .campaign_title {
   /* background: #cc0000; */
@@ -363,7 +306,6 @@ text-align: center;
 /*おやつクッキー カードの余白も完全になくす */
 .card {
   padding: 0 !important;
-  /* margin: 0 !important; */
   border: none !important;
   background-color: transparent;
 }
@@ -524,11 +466,8 @@ text-align: center;
 
   /**タイトルエリア 白**/
   .title_areaw {
-    /* margin: 0 auto 5% auto; */
     padding: 0;
     text-align: center;
-
-
   }
 
 
@@ -638,10 +577,6 @@ text-align: center;
   background-color: #13430a;
 }
 
- /* .text-dark-strong {
-  color: #0b2e13 !important; /* より濃い緑系 */
-
-
 
 /*-- 全体 > Fade-in --*/
 .fadein {
@@ -695,14 +630,6 @@ text-align: center;
 .product {
   height: 50vh;
 }
-
-/* .product02 img {
-  width: auto;
-  height:100%;
-}
-.product02{
-  height:100%;
-} */
 
 .product02 {
   height: 70vh;
@@ -847,4 +774,8 @@ text-align: center;
 .card-body02 {
   border: 1px solid white;
   padding: 20px;
+}
+
+.col-md-7 {
+
 }
