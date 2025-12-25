@@ -776,6 +776,19 @@ a.bg-light02:focus, a.bg-light02:hover, button.bg-light02:focus, button.bg-light
   padding: 20px;
 }
 
-.col-md-7 {
+/* ギャラリーの高さズレ防止 */
+.gallery-thumb{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+}
 
+.gallery-thumb{
+  transition: transform .3s ease, opacity .3s ease;
+}
+
+.gallery-thumb:hover{
+  transform: scale(1.02);
+  opacity: .95;
 }
